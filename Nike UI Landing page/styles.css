@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Francois One', sans-serif;;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #D0D4D5;
+    position: relative;
+}
+
+.nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+
+.nav img{
+    height: 50px;
+    margin-right: 170px;
+
+}
+
+.nav1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav1 h4{
+    margin-right: 60px;
+    font-size: 19px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color:#222322;
+}
+
+.nav2 i{
+    margin-right: 60px;
+    font-size: 19px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color:#222322;
+}
+
+.content{
+    height: calc(100% - 80px);
+    width: 100%;
+    position: relative;
+    display: flex;
+    
+}
+
+.left{
+    width: 35%;
+    height: 100%;
+    padding: 70px 150px;
+}
+
+.left h5{
+    font-size: 15px;
+    color: #a19f9f;
+    margin-bottom: 15px;
+}
+
+.left h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+.left p{
+    font-size: 12px;
+    width: 70%;
+    margin-bottom: 50px;
+    color: #555050;
+    margin-top: 15px;
+   
+}
+
+button{
+    background-color: black;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px 45px;
+    border-radius: 50px;
+    border-top-left-radius: 0px;
+}
+
+
+.right{
+    width: 65%;
+    height: 100%;
+   padding: 50px;
+    position: relative;
+    white-space: nowrap;
+    overflow-x: auto ;
+   
+}
+
+.right::-webkit-scrollbar{
+    display: none;
+}
+
+.elem{
+    height: 450px;
+    width: 300px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.elem img{
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    top: 20%;
+
+
+}
+
+.elem h4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #D0D4D5;
+    padding: 17px 34px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.elem h5{
+    position: absolute;
+    bottom: 10%;
+    right: 0;
+    background-color: #000000;
+    color: #fff;
+    font-weight: 500;
+    padding: 17px 34px;
+    border-radius: 6px;
+}

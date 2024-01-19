@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+       let arr = ["snake","water","gun"];
+       alert("You are playing Snakes,Water,Gun")
+       let round = 1;
+       let userGuess = 0;
+       let computerGuess = 0;
+
+       while(round<=3){
+        let userInput = prompt("Enter Your Guess");
+        let computerInput = arr[Math.floor(Math.random()*3)];
+
+        if((userInput=='snake'&&computerInput=='water')||(userInput=='gun'&&computerInput=='snake')||userInput=='water'&&computerInput=='gun'){
+            userGuess++
+           
+        } else if(userInput===computerInput){
+            alert("Same guess")
+        }else{
+            computerGuess++
+        }
+         round++
+       }
+
+       if(computerGuess>userGuess){
+        alert("You Lost the Game")
+       }else{
+        alert("You won the Game")
+       }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

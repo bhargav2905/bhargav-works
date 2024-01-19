@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: hsl(344, 26%, 62%);
+    display: flex;
+    
+}
+
+.part1 {
+    height: 100%;
+    width: 26%;
+
+}
+
+.part2 {
+    height: 100%;
+    width: 67%;
+    background-color: blue;
+    background-image: url(https://images.unsplash.com/photo-1585049302925-b8042ef6f261?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: hsla(344, 59%, 45%, 0.422);
+}
+
+.part3 {
+    height: 100%;
+    width: 7%;
+
+}
+
+.text-div{
+   
+    position: absolute;
+    width: 400px;
+    
+    left: 7%;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+.text-div h1{
+    font-size: 95px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 75px;
+    color:  whitesmoke;
+    letter-spacing: 8px;
+}
+
+.small-image{
+    height: 400px;
+    width: 300px;
+    background-image: url(https://images.unsplash.com/photo-1595784279873-62b38b5e7cd6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0,-50%);
+
+}
+
+.small-overlay{
+    height: 100%;
+    width: 100%;
+    background-color: hsla(344, 59%, 45%, 0.422);
+}
+
+.vertical-text{
+    position: absolute;
+    transform: rotate(90deg);
+    right: -50%;
+    transform-origin: 0% 0%;
+    top: -7%;
+
+    
+
+}
+ .vertical-text h1{
+    font-size: 70px;
+    font-weight: 900;
+    color: transparent;
+    letter-spacing: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+font-family: 'Handjet', cursive;
+font-family: 'Poppins', sans-serif;
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:  #fff;
+    text-transform: uppercase;
+   
+    
+ }
+
+ .nav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    left: 6%;
+
+    
+ }
+
+ .nav img{
+    height: 60px;
+ }
+
+ .nav h5{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+ }
